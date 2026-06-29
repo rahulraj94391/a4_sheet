@@ -1,0 +1,170 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{lmodern}           % Cleaner font rendering
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{microtype}         % Improved text spacing/kerning
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Rahul Raj} \\ \vspace{5pt}
+    \small
+    +91-9155881234 $|$
+    \href{mailto:rahulraj94391@gmail.com}{\underline{rahulraj94391@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/rahulraj94391}{\underline{LinkedIn}} $|$
+    \href{https://github.com/rahulraj94391}{\underline{GitHub}} $|$
+    \href{https://leetcode.com/u/rahulraj94391/}{\underline{LeetCode}}
+\end{center}
+
+\vspace{-4pt}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\small{Android Developer with 3 years of experience building scalable, production-grade applications using Kotlin and Java. Currently at Zoho Corporation, shipping high-impact features for 100K+ users. Strong expertise in MVVM, Clean Architecture, performance optimisation, and REST API integrations.}
+
+\vspace{2pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Zoho Corporation}{Jul 2023 -- Present}
+      {Software Development Engineer}{Chennai, India}
+      \resumeItemListStart
+        \resumeItem{Engineered a unified social media integration (Instagram, Twitter, Facebook) within Zoho Desk, consolidating customer support channels and reducing agent context-switching.}
+        \resumeItem{Built a real-time dynamic field computation engine that evaluates dependent field values via live API calls and local DB sync, eliminating manual data re-entry and ensuring consistency across specific field types.}
+        \resumeItem{Refactored existing layouts and custom views to support RTL rendering in Zoho Desk, expanding the app's reach to Arabic and Hebrew-speaking markets.}
+        \resumeItem{Achieved WCAG compliance and integrated TalkBack support across key user flows, making Zoho Desk accessible to users with visual and motor disabilities in line with Google's accessibility standards.}
+        \resumeItem{Developed and maintained features for an internal reusable Android component library powering dynamic, user-configurable field display layouts --- including drag-and-drop reordering, multi-layout support, and advanced styling options --- shipped across multiple Zoho mobile applications.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Zoho Corporation}{Apr -- Jun 2022}
+      {Summer Intern}{Chennai, India}
+      \resumeItemListStart
+        \resumeItem{Developed a Ticket Booking System console application using Java and Kotlin.}
+        \resumeItem{Implemented algorithms for seat allocation and train scheduling.}
+        \resumeItem{Applied OOP and SOLID principles for modular, maintainable code structure.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+        {\textbf{SociableX} $|$ \emph{Kotlin, Java, MVVM, Clean Architecture, Coroutines, Room, Hilt} $|$ \href{https://github.com/rahulraj94391/SociableX}{\underline{GitHub}}}{}
+        \resumeItemListStart
+          \resumeItem{Developed a feature-rich social media Android app with search, hashtag and location-based photo viewing, profile sharing, real-time messaging, and biometric app locking.}
+          \resumeItem{Used Coroutine Worker for background task scheduling; followed MVVM and Clean Architecture for scalable, testable code.}
+        \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\textbf{E-Commerce Web Application} $|$ \emph{Spring Boot, Spring Security, JPA, Hibernate, JWT, AWS}}{}
+        \resumeItemListStart
+          \resumeItem{Built a complete eCommerce backend with modules for Product, Category, Authentication, Cart, Order Management, and Payment.}
+          \resumeItem{Implemented JWT-based authentication with role and permission management for fine-grained access control.}
+          \resumeItem{Integrated pagination and sorting for scalable product and order listings; used Lombok to reduce boilerplate.}
+        \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Languages}{: Kotlin, Java} \\[3pt]
+      \textbf{Android}{: Android SDK, Jetpack (ViewModel, LiveData, Room, Navigation, WorkManager), Retrofit, Coroutines, Hilt/Dagger} \\[3pt]
+      \textbf{Architecture}{: MVVM, Clean Architecture, Repository Pattern} \\[3pt]
+      \textbf{Tools \& Platforms}{: Android Studio, Git, Firebase, REST APIs, Postman, AWS} \\[3pt]
+      \textbf{Other}{: Spring Boot, JPA, Hibernate, JWT, SQL}
+    }}
+  \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Vel Tech University}{2019 -- 2023}
+      {Bachelor of Technology, Computer Science and Engineering \normalfont{$|$ CGPA: 8.6/10}}{Chennai, India}
+  \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+  \resumeSubHeadingListStart
+    \item
+    \resumeItemListStart
+      \resumeItem{Solved \textbf{350+} coding problems on LeetCode, GeeksforGeeks, and Code360.}
+      \resumeItem{Mentored students in Java and Data Structures \& Algorithms (DSA) as part of a college programming club.}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\end{document}
