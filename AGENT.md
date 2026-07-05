@@ -31,7 +31,9 @@ I noticed there are Android developer openings at [Company] and I'd love
 to be considered. Would you be open to referring me or sharing any
 advice on the process?
 
-Happy to share my resume. Thanks!
+Here is my resume: https://bit.ly/4viEDf9
+
+Thanks!
 ```
 
 ---
