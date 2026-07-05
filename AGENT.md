@@ -36,14 +36,6 @@ Happy to share my resume. Thanks!
 
 ---
 
-## 📱 WhatsApp Protocol
-
-For any action requiring human input (irreversible actions, credentials, form submissions):
-1. Open `https://web.whatsapp.com/`
-2. Message **Rahul Raj** with `[AGENT]` prefix describing what's needed and why
-
----
-
 ## 📄 Resume Workflow
 
 1. Edit `Rahul_Raj_Resume.tex` → recompile → save as `Rahul_Raj_Resume_vN.pdf`
