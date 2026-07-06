@@ -1,6 +1,6 @@
 # Job Search Agent
 > Rahul Raj | Android Developer | rahulraj94391@gmail.com
-> Last updated: 2026-07-05
+> Last updated: 2026-07-07
 
 ---
 
@@ -13,7 +13,7 @@
 
 ## 📋 Next Steps
 
-1. Send referral messages to the 6 accepted PhonePe contacts → update `Referral Contacts` sheet
+1. ~~Send referral messages to the 6 accepted PhonePe contacts~~ ✅ Done 2026-07-07 — awaiting replies
 2. Check Couchbase connections → if accepted, send referral message → apply at job URL in `Companies` sheet
 3. Apply to PhonePe, Flipkart, Weekday AI, Snapmint, Innoventes → update `Applications` sheet
 
