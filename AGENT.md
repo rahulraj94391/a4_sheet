@@ -14,7 +14,7 @@
 ## 📋 Next Steps
 
 1. ~~Send referral messages to the 6 accepted PhonePe contacts~~ ✅ Done 2026-07-07 — awaiting replies
-2. Check Couchbase connections → if accepted, send referral message → apply at job URL in `Companies` sheet
+2. ~~Check Couchbase connections~~ ✅ Done 2026-07-07 — 4/7 accepted, referral messages sent to Tanvi Johari, Thejas N U, Nishant Tripathy, Subasish Mohapatra — awaiting replies
 3. Apply to PhonePe, Flipkart, Weekday AI, Snapmint, Innoventes → update `Applications` sheet
 
 ---
